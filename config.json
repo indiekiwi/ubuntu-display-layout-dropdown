@@ -1,0 +1,24 @@
+{
+  "displays": {
+    "DisplayPort-0": "LG",
+    "HDMI-A-1": "Samsung",
+    "HDMI-A-0": "TV"
+  },
+  "layouts": {
+    "1": [
+      ["--off"],
+      ["--off"],
+      ["--primary", "--auto"]
+    ],
+    "2": [
+      ["--primary", "--auto"],
+      ["--auto", "--above", "{0}"],
+      ["--off"]
+    ],
+    "3": [
+      ["--primary", "--auto"],
+      ["--auto", "--above", "{0}"],
+      ["--auto", "--left-of", "{0}"]
+    ]
+  }
+}
